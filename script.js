@@ -13,7 +13,7 @@ function startEmojiRain() {
   const container = document.getElementById("emojiRain");
   const emojis = ["🐳", "💋", "👅", "🛐", "🔞", "😳", "🥵", "😈"];
   setInterval(() => {
-    const numberOfEmojis = Math.floor(Math.random() * 10) + 20;
+    const numberOfEmojis = Math.floor(Math.random() * 5) + 15;
 
     for (let i = 0; i < numberOfEmojis; i++) {
       const emoji = document.createElement("div");
